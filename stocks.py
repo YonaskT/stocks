@@ -135,10 +135,10 @@ fig.update(layout_xaxis_rangeslider_visible=False)
 
 # Stock data has gaps in dates, specifically in weekends and holidays
 # create a list of dates that are NOT included from start to end
-date_gaps = [date for date in pd.date_range(start = start_date, end = end_date) if date not in df['Date'].values]
+#date_gaps = [date for date in pd.date_range(start = start_date, end = end_date) if date not in df['Date'].values]
 
 # Update Xaxes 
-fig.update_xaxes(rangebreaks = [dict(values = date_gaps)])
+#fig.update_xaxes(rangebreaks = [dict(values = date_gaps)])
 
 st.plotly_chart(fig)
 
