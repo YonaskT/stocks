@@ -1,8 +1,8 @@
 import datetime
 import streamlit as st
-import pandas_datareader as pdr
-import pandas as pd
-import cufflinks as cf
+#import pandas_datareader as pdr
+#import pandas as pd
+#import cufflinks as cf
 import yfinance as yf
 
 from prophet import Prophet
