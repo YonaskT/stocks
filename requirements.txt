@@ -4,6 +4,6 @@ pandas
 numpy
 yfinance
 Prophet
-matplotlib.pyplot
+matplotlib
 plot_plotly
 graph_objs
