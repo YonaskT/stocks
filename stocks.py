@@ -1,6 +1,5 @@
 import datetime
 import streamlit as st
-#import pandas_datareader as pdr
 #import pandas as pd
 #import cufflinks as cf
 import yfinance as yf
@@ -132,13 +131,6 @@ fig.add_trace(go.Bar(x = df['Date'], y = df['Volume'], showlegend=False),
 
 # Remove range slider; (short time frame)
 fig.update(layout_xaxis_rangeslider_visible=False)
-
-# Stock data has gaps in dates, specifically in weekends and holidays
-# create a list of dates that are NOT included from start to end
-#date_gaps = [date for date in pd.date_range(start = start_date, end = end_date) if date not in df['Date'].values]
-
-# Update Xaxes 
-#fig.update_xaxes(rangebreaks = [dict(values = date_gaps)])
 
 st.plotly_chart(fig)
 
