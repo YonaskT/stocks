@@ -23,7 +23,7 @@ st.write(' ### Stocks Prediction App ')
 # Add app title
 st.sidebar.title(APP_NAME)
 
-TICKERS = ['SHB-A.ST','SEB-A.ST','SWED-A.ST','ASAZY','HM-B.ST','VLVLY','SPOT','ERIC']
+TICKERS = ['SHB-A.ST','SEB-A.ST','SWED-A.ST','ASAZY','HM-B.ST','VLVLY','SPOT','ERIC','TELIA.ST','TELE2-B.ST','VPLAY-B.ST']
 ticker = st.sidebar.selectbox('Select ticker', sorted(TICKERS), index=0)
 
 # Set start and end point to fetch data
