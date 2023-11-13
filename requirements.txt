@@ -1,0 +1,9 @@
+
+streamlit
+pandas
+numpy
+yfinance
+Prophet
+matplotlib.pyplot
+plot_plotly
+graph_objs
