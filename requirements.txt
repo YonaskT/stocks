@@ -6,4 +6,3 @@ yfinance
 Prophet
 matplotlib
 plotly
-graph_objs
