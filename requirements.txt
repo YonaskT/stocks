@@ -5,5 +5,5 @@ numpy
 yfinance
 Prophet
 matplotlib
-plot_plotly
+plotly
 graph_objs
