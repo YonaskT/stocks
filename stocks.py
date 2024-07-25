@@ -3,7 +3,7 @@ import streamlit as st
 #import pandas as pd
 #import cufflinks as cf
 import yfinance as yf
-#import numpy as np
+import numpy as np
 
 from prophet import Prophet
 from prophet.plot import plot_plotly
