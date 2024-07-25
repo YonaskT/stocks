@@ -1,7 +1,7 @@
 
 streamlit
 pandas
-numpy = 1.24.3
+numpy 1.24.3
 yfinance
 Prophet
 matplotlib
