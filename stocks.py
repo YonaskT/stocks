@@ -3,8 +3,8 @@ import streamlit as st
 #import pandas as pd
 #import cufflinks as cf
 import yfinance as yf
-from pandas_datareader import data as pdr
 yf.pdr_override()
+from pandas_datareader import data as pdr
 import numpy as np
 
 from prophet import Prophet
