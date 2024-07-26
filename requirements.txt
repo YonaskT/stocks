@@ -6,5 +6,4 @@ matplotlib
 plotly
 streamlit
 numpy==1.24.0
-pandas_datareader
-
+pandas-datareader
