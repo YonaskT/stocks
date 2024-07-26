@@ -1,7 +1,7 @@
-pandas==2.0.1
+pandas
 yfinance
-prophet==1.1.2
+prophet
 matplotlib
 plotly
-streamlit==1.22.0
-numpy==1.23.0
+streamlit
+numpy
