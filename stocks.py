@@ -3,7 +3,7 @@ import streamlit as st
 #import pandas as pd
 #import cufflinks as cf
 import yfinance as yf
-import pandas_datareader as pdr
+from pandas_datareader import data as pdr
 yf.pdr_override()
 import numpy as np
 
