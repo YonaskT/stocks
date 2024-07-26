@@ -1,6 +1,7 @@
 pandas
 yfinance
-prophet
+Prophet 1.1.1 
+holidays 0.18.0
 matplotlib
 plotly
 streamlit
