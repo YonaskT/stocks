@@ -33,9 +33,9 @@ ticker = st.sidebar.selectbox('Select ticker', sorted(TICKERS), index=0)
 start_date = st.sidebar.date_input('Start date', datetime.datetime(2008, 1, 1))
 end_date = st.sidebar.date_input('End date', datetime.datetime.now().date())
 
+df = yf.download(ticker, start_date, end_date,progress=False)
 #df = yf.download(ticker, start_date, end_date,threads=False)
-#df = yf.download(ticker, start_date, end_date,threads=False)
-df = pdr.get_data_yahoo(ticker, start_date, end_date, threads=False)
+#df = pdr.get_data_yahoo(ticker, start_date, end_date, threads=False)
 df.reset_index(inplace=True)
 st.subheader(f'{ticker} Stock Price')
 
